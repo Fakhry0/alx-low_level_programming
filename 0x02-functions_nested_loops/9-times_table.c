@@ -24,6 +24,6 @@ if (product >= 10)
 _putchar((product / 10) + '0');
 _putchar((product % 10) + '0');
 }
-_putchar('\n');	
+_putchar('\n');
 }
 }
