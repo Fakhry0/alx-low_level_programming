@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- *  * main - Prints numbers from 0 to 9.
+ *  * main - Prints the alphabet.
  *   *
  *    * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
-for (i = 0; i < 10; i++)
+int i = 0;
+while (i < 10)
 {
-printf("%d", i);
+printf("%i", i);
+i++;
 }
 putchar('\n');
 return (0);
